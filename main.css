@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    /* max-width: 300px; */
+    width: 100%;
+    height: auto;
+
+}
+
+#sports {
+    background-color: rgb(183, 183, 223);
+}
+#sports a {
+    background-color: rgb(50, 50, 194);
+}
+
+#economy {
+    background-color: rgb(155, 240, 173);
+}
+#economy a {
+    background-color: rgb(36, 168, 64);
+}
+
+#entertainment {
+    background-color: rgb(226, 149, 220);
+}
+#entertainment a {
+    background-color: rgb(175, 39, 164);
+}
+
+#technology {
+    background-color: rgb(233, 231, 149);
+}
+#technology a {
+    background-color: rgb(158, 156, 35);
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(80, 76, 76);
+    color: aliceblue;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+.container1 li {
+    display: inline;
+}
+
+.container1 li a {
+    color:aliceblue;
+    text-decoration: None;
+    font-weight: bold;
+    margin-right: 16px;
+}
+.container1 li a:hover {
+    text-decoration: underline;
+}
+
+.container2 { /* sections */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px 0;
+    
+}
+
+.container2 .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container2 .articles article {
+    width: 30%;
+}
+
+.container2 h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.container2 .articles article a {
+    background-color: blue;
+    color: aliceblue;
+    margin-top: 8px;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: None;
+    font-weight: bold;
+}
+.container2 .articles article a:hover {
+    text-decoration: underline;
+}
